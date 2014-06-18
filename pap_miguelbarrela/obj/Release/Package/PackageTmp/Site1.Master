@@ -1,0 +1,239 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="pap_miguelbarrela_gogogo.Site1" %>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Futons Zezinha  
+        
+         
+
+            <%
+                var url = Request.Url.AbsolutePath;
+             switch (url)
+               {
+                   
+                   case "/sobre.aspx":%>
+                   - Sobre
+                   <%;
+                   break;
+                   case "/produtos.aspx":%>
+                   - Produtos
+                   <%;
+                   break;case "/portfolio.aspx":%>
+                   - Portfólio
+                   <%;
+                   break;case "/contactos.aspx":%>
+                   - Contactos
+                   <%;
+                   break;
+                   default:%><%;
+                   break;
+               }
+                       %>
+                      
+		</title>
+   
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="js/modernizr.js"></script>
+
+    <!-- popup login-->
+    <link href="css/popup.css" rel="stylesheet" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popup.js"></script>
+    <!-- OSX Style CSS files -->
+    <link type='text/css' href='css/osx.css' rel='stylesheet' media='screen' />
+    <!-- Favicon -->
+    <link href="/img/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- Import dos CSS files -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+   	<link rel="stylesheet" href="css/flexslider.css" type="text/css" />
+
+     <!-- Scripts -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/jquery-ui.js" type="text/javascript"></script>
+    <link href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/themes/start/jquery-ui.css"
+    rel="stylesheet" type="text/css" />
+	
+    <!-- Background image -->
+    <style>
+        body {background-image:url('img/bg.png');}
+    </style>
+</head>
+
+<body class="body">
+	 <form runat="server">
+	
+	<header class="mainHeader">
+       
+
+        
+         
+       		<div class="loginSmall"> <a href='#' class='osx'>Login</a></div>
+
+     <%--  <img src="img/logo.gif">--%>
+		<img src="img/logo1.jpg" />
+	
+	<%--	<img src="img/Untitled-1.jpg" />--%>
+			
+	
+		<!-- modal content -->
+		<div id="osx-modal-content">
+            
+			<div id="osx-modal-title">Login</div>
+			<div class="close"><a href="#" class="simplemodal-close">x</a></div>
+			<div id="osx-modal-data">
+			   <p>Utilizador<input id="Text1" type="text" /></p>
+               <p>Password<input id="Password1" type="password" /></p> 
+               <p><button id="btnLogin">Entrar</button></p><br />
+           
+       
+
+     
+                      <p>Esqueceu-se da sua password? Recupere-a <a href="recuperarPassword.aspx">aqui!</a></p>
+				<p>Ainda não está registado? <a href="registo.aspx">Registe-se já!</a></p>
+           
+				
+			</div>
+		</div>
+        <div class="carrinhoCompras">
+                     
+            </div>
+		<nav><ul>
+
+            <%
+                var urlMenu = Request.Url.AbsolutePath;
+             switch (urlMenu)
+               {
+                   case "/default.aspx":%><li class="active"><a href="default.aspx">Home</a></li>
+                   <li><a href="sobre.aspx">Sobre</a></li>
+			       <li><a href="produtos.aspx">Produtos</a></li>
+			       <li><a href="portfolio.aspx">Portfólio</a></li>
+                   <li><a href="contactos.aspx">Contactos</a></li><%;
+                   break;
+                   case "/sobre.aspx":%><li><a href="default.aspx">Home</a></li>
+                   <li class="active"><a href="sobre.aspx">Sobre</a></li>
+                   <li><a href="produtos.aspx">Produtos</a></li>
+			       <li><a href="portfolio.aspx">Portfólio</a></li>
+                   <li><a href="contactos.aspx">Contactos</a></li><%;
+                   break;
+                   case "/produtos.aspx":%><li><a href="default.aspx">Home</a></li>
+                   <li><a href="sobre.aspx">Sobre</a></li>
+                   <li class="active"><a href="produtos.aspx"">Produtos</a></li>
+                   <li><a href="portfolio.aspx">Portfólio</a></li>
+                   <li><a href="contactos.aspx">Contactos</a></li><%;
+                   break;
+                   case "/portfolio.aspx":%><li><a href="default.aspx">Home</a></li>
+                   <li><a href="sobre.aspx">Sobre</a></li>
+                   <li><a href="produtos.aspx">Produtos</a></li>
+                   <li class="active"><a href="portfolio.aspx">Portfólio</a></li>
+                   <li><a href="contactos.aspx">Contactos</a></li><%;
+                   break;
+                   case "/contactos.aspx":%><li><a href="default.aspx">Home</a></li>
+                   <li><a href="sobre.aspx">Sobre</a></li>
+                   <li><a href="produtos.aspx">Produtos</a></li>
+                   <li><a href="portfolio.aspx">Portfólio</a></li>
+                   <li class="active"><a href="contactos.aspx">Contactos</a></li><%;
+                   break;
+                   default:%><li> <a href="default.aspx">Home</a></li>
+                   <li><a href="sobre.aspx">Sobre</a></li>
+			       <li><a href="produtos.aspx">Produtos</a></li>
+			       <li><a href="portfolio.aspx">Portfólio</a></li>
+                   <li><a href="contactos.aspx">Contactos</a></li><%;
+                   break;
+               }
+                       %>
+                      
+		</ul></nav>
+	</header>
+    
+		  <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+	<div class="mainContent">
+		
+	</div>
+	</asp:ContentPlaceHolder>
+    
+    <aside class="top-sidebar">
+        <header class="loginContent">
+            <nav><a href="#" class="topopup">Login/Registar</a></nav>
+        </header>
+       
+
+       
+        
+        <div id="toPopup">  
+            <div class="close"></div>
+            <div id="popup_content">
+                <p>Entrar</p>
+              
+               <p>Nome: <input type="text" name="fname" /><br/></p>
+              <p>Pass:   <input type="text" name="fpass" /><br/></p>
+                 <input type="submit" value="Login" />
+            </div>
+        </div>
+
+        <div class="loader"></div>
+        <div id="backgroundPopup"></div>
+  
+				</aside>
+				
+				<aside class="middle-sidebar">
+					<article>
+					<h2><a href="finalizarCompra.aspx">Carrinho de Compras</a></h2>
+					<p>O carrinho de compras está vazio</p>
+				    </article>
+				</aside>				
+
+				<aside class="bottom-sidebar">
+					<article>
+					<h2><a href="maisVendidos.aspx">Os mais vendidos</a></h2>
+					<p>Futons ---60%</p>
+                        <p>Edredons ---20%</p>
+                        <p>Almofadas ---20%</p>
+				    </article>
+				</aside>
+	<footer class="mainFooter">
+		<p>Copyright &copy; 2014 <a href="http://futonszezinha.pt">Futons Zezinha</a></p>
+	</footer>
+    <!-- Load JavaScript files -->
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src='js/jquery.simplemodal.js'></script>
+<script type='text/javascript' src='js/osx.js'></script>
+    
+     <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+  <!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+      $(function () {
+          SyntaxHighlighter.all();
+      });
+      $(window).load(function () {
+          $('.flexslider').flexslider({
+              animation: "slide",
+              start: function (slider) {
+                  $('body').removeClass('loading');
+              }
+          });
+      });
+  </script>
+
+
+  <!-- Syntax Highlighter -->
+  <script type="text/javascript" src="js/shCore.js"></script>
+  <script type="text/javascript" src="js/shBrushXml.js"></script>
+  <script type="text/javascript" src="js/shBrushJScript.js"></script>
+
+  <!-- Optional FlexSlider Additions -->
+  <script src="js/jquery.easing.js"></script>
+  <script src="js/jquery.mousewheel.js"></script>
+  <script defer src="js/demo.js"></script>
+      </form>
+</body>
+</html>

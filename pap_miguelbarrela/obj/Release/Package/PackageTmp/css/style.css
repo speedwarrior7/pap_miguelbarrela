@@ -1,0 +1,467 @@
+/*
+	Theme Name: 1stwebdesigner HTML5/CSS3 Layout
+	Date: March 2013
+	Description: Basic HTML5/CSS3 layout built on a responsive framework
+	Version: 1.0
+	Author: Christian Vasile
+	Author URL: http://christianvasile.com
+*/
+
+#cpanel {
+    padding-top:15%;
+    margin-left:40%
+
+
+}
+.h_iframe        {position:relative;min-height:500px;}
+.h_iframe .ratio {display:block;width:100%;height:auto;}
+.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+/* ===========================
+   ======= Registar ======== 
+   =========================== */
+
+
+/* ===========================
+   ======= Body style ======== 
+   =========================== */
+   
+body {
+	
+	color: #000305;
+	font-size: 90%; /* Base font size: 14px */
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	}
+	
+.body {
+	clear: both; 
+	margin: 0 auto; 
+	width: 70%;
+}
+	
+/* ===========================
+   ========= Headings ======== 
+   =========================== */
+h2 {font-size: 1.571em}	/* 22px */
+h3 {font-size: 1.429em}	/* 20px */
+h4 {font-size: 1.286em}	/* 18px */
+h5 {font-size: 1.143em}	/* 16px */
+/*h6 {font-size: 1em}		/* 14px */
+h6 {font-size: 0.747em} /* 8px */
+
+h2, h3, h4, h5 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+h6 {
+    
+    font-weight: 100;
+	line-height: 0;
+	margin-bottom: 0;
+}
+
+/* ===========================
+   ======= Anchor style ====== 
+   =========================== */
+a {
+	outline: 0;
+	}
+
+a img {
+	border: 0px; 
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #CF5C3F;
+	padding: 0 1px;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background-color: #CF5C3F;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ===========================
+   ===== Main Navigation ===== 
+   =========================== */
+.carrinhoCompras {
+    margin-top:20%;
+    float:right;
+}    
+.mainHeader nav {
+	background: #666;
+	font-size: 1.143em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+	border-radius: 5px;
+	/* border-radius para outros browsers*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	
+.mainHeader nav ul {
+	list-style: none; 
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float: left; 
+	display: inline; 
+}
+	
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 23px;
+	text-decoration: none;
+}
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background: #CF5C3F;
+	color: #fff;
+	text-shadow: none !important;
+}
+	
+.mainHeader nav li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader img {
+	width: 30%;
+	height: auto;
+	margin: 3% 0;
+}
+/*
+    
+    */
+#loginHide {
+  
+}
+
+.loginContent nav {
+	background: #666;
+	font-size: 1.286em;
+	height: 40px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	/* border-radius para outros browsers*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	
+
+	
+.loginContent nav a:link, .loginContent nav a:visited {
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 5%;
+	text-decoration: none;
+
+}
+.loginContent nav a:hover, .loginContent nav a:active,
+.loginContent nav .active a:link, .loginContent nav .active a:visited {
+	background: #CF5C3F;
+	color: #fff;
+	text-shadow: none !important;
+}
+	
+.loginContent nav a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+/*
+    
+    
+    
+    */
+/* ===========================
+   ======= Content Area ====== 
+   =========================== */
+
+.mainContent {
+	overflow: hidden;
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.topcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;	
+	margin-bottom: 3%;
+    min-height:421px;
+}
+
+    .topcontent img {
+        width:100%
+    }
+.topcontent table, td, th {
+    
+    font-size: 110%;
+    border:1px solid black;
+border-collapse:collapse;
+}
+    .topcontent table {
+        margin-bottom: 0;
+    }
+   
+.bottomcontent {
+	background-color: #FFF;	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;
+}
+    .bottomcontent img {
+        width:100%;
+        max-width:600px;
+    }
+.content {
+	width: 68%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 85%;
+}
+
+/* ===========================
+   ======== Sidebar ========== 
+   =========================== */
+
+.top-sidebar {
+    
+	width: 24%;
+	float: left;
+	margin-left: 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: #666;	
+	padding: 2% 3%;
+	margin-bottom: 2%;
+}
+
+.middle-sidebar {
+	width: 24%;
+	float: left;
+	margin-left: 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: #FFF;	
+	padding: 2% 3%;
+	margin-bottom: 2%;
+}
+
+.bottom-sidebar {
+	width: 24%;
+	float: left;
+	margin-left: 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: #FFF;	
+	padding: 2% 3%;
+}
+
+/* ===========================
+   ========= Footer ========== 
+   =========================== */
+
+.mainFooter {
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 0;
+	background-color: #666;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	color: #FFF;	
+}
+
+.mainFooter p {
+	width: 91%;
+	margin: 2% auto;
+}
+loginSmall {
+        height:0px;
+        text-align:right;
+            }
+
+/* ===========================
+   ====== Media Queries ====== 
+   =========================== */
+@media only screen and (min-width : 821px) and (max-width : 5000px) {
+     .loginSmall {
+        display:none;
+            }
+}
+@media only screen and (min-width : 150px) and (max-width : 820px)
+
+{
+    .h_iframe        {position:relative;min-height:250px;}
+    .loginSmall {
+        width:100%;
+        /*height:100px;*/
+        text-align:right;
+            }
+
+    .carrinhoCompras {
+        display:none;
+       
+    }
+	.body {
+		clear: both; 
+		margin: 0 auto; 
+		width: 90%;
+		font-size: 90%;
+	}
+	
+	.mainHeader nav {
+		background: #666;
+		font-size: 1.143em;
+		height: 200px;
+		line-height: 30px;
+		margin-bottom: 0;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+		
+	.mainHeader nav ul {
+		list-style: none; 
+		margin: 0 auto;
+		padding-left: 0;
+	}
+	
+	.mainHeader nav li {
+		margin-left: 0 auto;
+		width: 100%;
+	}
+	
+	.mainHeader nav a:link, .mainHeader nav a:visited {
+		color: #FFF;
+		display: block;
+		height: 30px;
+		padding: 5px 0;
+		text-decoration: none;
+	}
+	
+	.mainHeader nav a:active,
+	.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+		background: #CF5C3F;
+		color: #fff;
+		text-shadow: none !important;
+	}
+		
+	.mainHeader nav li a {
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+			
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+	
+	.mainHeader img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 3%;
+	}
+	
+	.mainContent {
+		overflow: hidden;
+		line-height: 25px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		margin-top: 4%;
+		margin-bottom: 2%;
+	}
+	
+	.topcontent {
+		background-color: #FFF;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+		padding: 2% 5%;
+		margin-bottom: 4%;
+        max-height:500px;
+	}
+	
+	.bottomcontent {
+		background-color: #FFF;	
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+		padding: 2% 5%;
+	}
+	
+	.content {
+		width: 100%;
+		float: left;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+	}	
+
+	/*.post-info {
+		display: none;
+	}*/
+	
+	.top-sidebar, .middle-sidebar,  .bottom-sidebar {
+		display:none;	
+		
+	}
+	
+	
+
+	
+		
+	.mainFooter {
+		width: 100%;
+		float: left;
+		margin: 2% 0;
+		padding-left: 0;
+		background-color: #666;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+		color: #FFF;	
+	}
+	
+	.mainFooter p {
+		width: 86%;
+		margin: 2% auto;
+	}
+}

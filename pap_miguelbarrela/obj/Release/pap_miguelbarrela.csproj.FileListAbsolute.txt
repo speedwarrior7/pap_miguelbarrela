@@ -1,0 +1,19 @@
+c:\users\mike\documents\visual studio 2012\Projects\pap_miguelbarrela\pap_miguelbarrela\bin\pap_miguelbarrela.dll
+c:\users\mike\documents\visual studio 2012\Projects\pap_miguelbarrela\pap_miguelbarrela\bin\pap_miguelbarrela.pdb
+c:\users\mike\documents\visual studio 2012\Projects\pap_miguelbarrela\pap_miguelbarrela\obj\Release\pap_miguelbarrela.dll
+c:\users\mike\documents\visual studio 2012\Projects\pap_miguelbarrela\pap_miguelbarrela\obj\Release\pap_miguelbarrela.pdb
+F:\pap_miguelbarrela\pap_miguelbarrela\bin\pap_miguelbarrela.dll
+F:\pap_miguelbarrela\pap_miguelbarrela\bin\pap_miguelbarrela.pdb
+F:\pap_miguelbarrela\pap_miguelbarrela\obj\Release\pap_miguelbarrela.csprojResolveAssemblyReference.cache
+F:\pap_miguelbarrela\pap_miguelbarrela\obj\Release\pap_miguelbarrela.dll
+F:\pap_miguelbarrela\pap_miguelbarrela\obj\Release\pap_miguelbarrela.pdb
+D:\pap_miguelbarrela\pap_miguelbarrela\bin\pap_miguelbarrela.dll
+D:\pap_miguelbarrela\pap_miguelbarrela\bin\pap_miguelbarrela.pdb
+D:\pap_miguelbarrela\pap_miguelbarrela\obj\Release\pap_miguelbarrela.csprojResolveAssemblyReference.cache
+D:\pap_miguelbarrela\pap_miguelbarrela\obj\Release\pap_miguelbarrela.dll
+D:\pap_miguelbarrela\pap_miguelbarrela\obj\Release\pap_miguelbarrela.pdb
+C:\Users\migue_000\Desktop\pap_miguelbarrela\pap_miguelbarrela\bin\pap_miguelbarrela.dll
+C:\Users\migue_000\Desktop\pap_miguelbarrela\pap_miguelbarrela\bin\pap_miguelbarrela.pdb
+C:\Users\migue_000\Desktop\pap_miguelbarrela\pap_miguelbarrela\obj\Release\pap_miguelbarrela.csprojResolveAssemblyReference.cache
+C:\Users\migue_000\Desktop\pap_miguelbarrela\pap_miguelbarrela\obj\Release\pap_miguelbarrela.dll
+C:\Users\migue_000\Desktop\pap_miguelbarrela\pap_miguelbarrela\obj\Release\pap_miguelbarrela.pdb
